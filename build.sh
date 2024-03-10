@@ -14,3 +14,8 @@ write_template "./recipes/ros-humble-wasm-cpp/recipe.yaml.in"     "./recipes/ros
 micromamba activate "$(get_conf_var "emforge-env-name")"
 boa build recipes --target-platform=emscripten-wasm32 -m $EMFORGE_DIR/conda_build_config.yaml
 micromamba deactivate
+
+# TODO: bash-builder could run multiple scripts? maybe have aliases (or just use make)?
+source "$PROJECT_DIR/install-web-env.sh"
+
+source "$PROJECT_DIR/pack.sh"
