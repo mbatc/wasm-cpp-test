@@ -49,7 +49,7 @@ try:
   pub_a = node.create_publisher(String, 'topic_a', 10)
   pub_b = node.create_publisher(String, 'topic_b', 10)
   sub_1 = MinimalSubscriber('minimal_subscriber_test', ['topic_a', 'topic_b'])
-  # sub_2 = MinimalSubscriber('minimal_subscriber_test_a', ['topic_b'])
+  sub_2 = MinimalSubscriber('minimal_subscriber_test_a', ['topic_b'])
 except Exception as e:
   import traceback
   pyjs.js.console.log('\n'.join(traceback.format_exception(e)))
@@ -57,4 +57,4 @@ except Exception as e:
 asyncio.create_task(publish_messages(pub_a, 'Hello From A '))
 asyncio.create_task(publish_messages(pub_b, 'Hello From B '))
 asyncio.create_task(spin_subscriber(sub_1))
-# asyncio.create_task(spin_subscriber(sub_2))
+asyncio.create_task(spin_subscriber(sub_2))
