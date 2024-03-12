@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <title>ROS 2 Test (Web)</title>
+    <style>
+      body, html {
+        height: 100%;
+        background-color: aliceblue;
+      }
+
+      body {
+        margin: 0
+      }
+
+      #header {
+        background-color: #333;
+        width: 100%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        text-align: center;
+        color:aliceblue;
+      }
+
+      .row-container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        overflow: hidden;
+      }
+
+      .column {
+        float: left;
+      }
+
+      #pythonInput {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+
+      #outputLog {
+        overflow: auto;
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+
+      #swift-viewport {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <script
+      type="application/javascript"
+      src="pyjs_runtime_browser.js"
+    ></script>
+    <script type="application/javascript" src="wasm_js/pre.js"></script>
+    <script type="application/javascript" src="wasm_js/rosMain.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+  <div id="header" style="height: 10%">
+    <h1>ROS 2 Test (Web)</h1>
+  </div>
+  <div style="height: 90%; width: 100%;">
+    <div style="height: 60%; width: 100%;">
+        <div style="height: 10%; width: 100%; vertical-align: center;">
+          <strong>Python Interpreter</strong>
+        </div>
+        <div style="height: 90%; width: 100%;">
+          <textarea style="resize: none;"id="pythonInput" name="pythonInput"></textarea><br>
+        </div>
+    </div>
+    <div style="height: 5%; width: 100%;">
+      <button onclick="runPythonCode()">Run</button>
+      <button onclick="loadDefaultCode()">Load Default Script</button>
+    </div>
+    <div id="outputLog" style="height: 30%; width: 100%;">
+        <!-- Output log will be displayed here -->
+    </div>
+  </div>
+</body>
+
+</html>
