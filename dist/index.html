@@ -1,92 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--
+  This is the root document for _your_ JupyterLite. Thanks for viewing your source!
+     ___ __   __ _______ __   __ _______ _______ ______   ___     ___ _______ _______
+    |   |  | |  |       |  | |  |       |       |    _ | |   |   |   |       |       |
+    |   |  | |  |    _  |  |_|  |_     _|    ___|   | || |   |   |   |_     _|    ___|
+    |   |  |_|  |   |_| |       | |   | |   |___|   |_||_|   |   |   | |   | |   |___
+ ___|   |       |    ___|_     _| |   | |    ___|    __  |   |___|   | |   | |    ___|
+|       |       |   |     |   |   |   | |   |___|   |  | |       |   | |   | |   |___
+|_______|_______|___|     |___|   |___| |_______|___|  |_|_______|___| |___| |_______|
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <title>ROS 2 Test (Web)</title>
-    <style>
-      body, html {
-        height: 100%;
-        background-color: aliceblue;
-      }
+Code: https://github.com/jupyterlite/jupyterlite
+Demo: https://jupyterlite.rtfd.io/en/latest/try
 
-      body {
-        margin: 0
-      }
+# FILES
 
-      #header {
-        background-color: #333;
-        width: 100%;
-        padding-top: 1px;
-        padding-bottom: 1px;
-        text-align: center;
-        color:aliceblue;
-      }
+Your JupyterLite is structured like this:
 
-      .row-container {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        flex-direction: column;
-        overflow: hidden;
-      }
+    index.html             <---- you are here
+    {:app}/                <---- currently-known: `lab` (semi-required) and `notebook`
+      index.html
+      extensions/
+        {:org}/{:package}/ <---|
+        {:package}/        <---+- federated extensions
+          schema/
+          package.json
+    # TBD
+    files/                 <----- also need to populate `api/contents/`!
+    static/                <----- might save duplication
+      {:app}
 
-      .column {
-        float: left;
-      }
+-->
+<html>
+  <head>
+    <!--
+      # jupyter-config-data
 
-      #pythonInput {
-        width: 100%;
-        height: 100%;
-        box-sizing: border-box;
-      }
+      The JSON in `jupyter-lite.json` is the last that will be loaded by most
+      child `index.html` pages, and every field can be overridden.
 
-      #outputLog {
-        overflow: auto;
-        border: 1px solid #ccc;
-        padding: 10px;
-      }
+      See the recognized schema as described in the documentation:
 
-      #swift-viewport {
-        width: 100%;
-        height: 100%;
-      }
-    </style>
-    <script
-      type="application/javascript"
-      src="pyjs_runtime_browser.js"
-    ></script>
-    <script type="application/javascript" src="wasm_js/pre.js"></script>
-    <script type="application/javascript" src="wasm_js/rosMain.js"></script>
-    <script src="index.js"></script>
-</head>
+      - https://jupyterlite.rtfd.io/en/latest/schema
 
-<body>
-  <div id="header" style="height: 10%">
-    <h1>ROS 2 Test (Web)</h1>
-  </div>
-  <div style="height: 90%; width: 100%;">
-    <div style="height: 60%; width: 100%;">
-        <div style="height: 10%; width: 100%; vertical-align: center;">
-          <strong>Python Interpreter</strong>
-        </div>
-        <div style="height: 90%; width: 100%;">
-          <textarea style="resize: none;"id="pythonInput" name="pythonInput"></textarea><br>
-        </div>
-    </div>
-    <div style="height: 5%; width: 100%;">
-      <button onclick="runPythonCode()">Run</button>
-      <button onclick="loadDefaultCode()">Load Default Script</button>
-    </div>
-    <div id="outputLog" style="height: 30%; width: 100%;">
-        <!-- Output log will be displayed here -->
-    </div>
-  </div>
-</body>
+      Notes
+        - fields that...
+          - are relative paths values
+            - will have the parent directory of _this_ file appended, accounting
+              for "magic" hosts which redirect to `{:path}index.html` to `{:path}`,
+              with or without a slash
+        - some fields, such as `federated_extensions` will be _added together_
+    -->
+    <script id="jupyter-config-data" type="application/json" data-jupyter-lite-root=".">
+      {}
+    </script>
+    <!--
+      # jupyter-lite-root
 
+      The source of truth for relative path locations. The `.` means _this_
+      is the root, and will redirect to the `appUrl` defined in
+      `.jupyter-lite/#jupyter-config-data`.
+    -->
+    <script type="module">
+      await import('./config-utils.js');
+    </script>
+    <!-- that's it, there shouldn't be anything below here in head! -->
+  </head>
 </html>

@@ -1,0 +1,1020 @@
+{
+    "prefix": "/",
+    "packages": [
+        {
+            "name": "ros-humble-rosidl-adapter",
+            "version": "3.1.5",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-adapter-3.1.5-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-adapter-3.1.5-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "packaging",
+            "version": "21.3",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "packaging-21.3-pyhd8ed1ab_0",
+            "filename": "packaging-21.3-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "parso",
+            "version": "0.8.3",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "parso-0.8.3-pyhd8ed1ab_0",
+            "filename": "parso-0.8.3-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-generator-c",
+            "version": "3.1.5",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-generator-c-3.1.5-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-generator-c-3.1.5-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "decorator",
+            "version": "5.1.1",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "decorator-5.1.1-pyhd8ed1ab_0",
+            "filename": "decorator-5.1.1-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "fonttools",
+            "version": "4.39.4",
+            "build": "py311he9a3d86_0",
+            "filename_stem": "fonttools-4.39.4-py311he9a3d86_0",
+            "filename": "fonttools-4.39.4-py311he9a3d86_0.tar.gz"
+        },
+        {
+            "name": "spdlog",
+            "version": "1.11.0",
+            "build": "hcfdbb78_2",
+            "filename_stem": "spdlog-1.11.0-hcfdbb78_2",
+            "filename": "spdlog-1.11.0-hcfdbb78_2.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-gen-version-h",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-gen-version-h-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-gen-version-h-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "pytz",
+            "version": "2022.6",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "pytz-2022.6-pyhd8ed1ab_0",
+            "filename": "pytz-2022.6-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ipython",
+            "version": "8.14.0",
+            "build": "py311had7285e_1",
+            "filename_stem": "ipython-8.14.0-py311had7285e_1",
+            "filename": "ipython-8.14.0-py311had7285e_1.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-export-libraries",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-export-libraries-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-export-libraries-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "xeus-python-shell-raw",
+            "version": "0.6.1",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "xeus-python-shell-raw-0.6.1-pyhd8ed1ab_0",
+            "filename": "xeus-python-shell-raw-0.6.1-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ptyprocess",
+            "version": "0.7.0",
+            "build": "pyhd3deb0d_0",
+            "filename_stem": "ptyprocess-0.7.0-pyhd3deb0d_0",
+            "filename": "ptyprocess-0.7.0-pyhd3deb0d_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-typesupport-c",
+            "version": "2.0.1",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-typesupport-c-2.0.1-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-typesupport-c-2.0.1-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-cli",
+            "version": "3.1.5",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-cli-3.1.5-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-cli-3.1.5-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-gmock-vendor",
+            "version": "1.10.9004",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-gmock-vendor-1.10.9004-py311h5e4dfb3_4",
+            "filename": "ros-humble-gmock-vendor-1.10.9004-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rcl-yaml-param-parser",
+            "version": "5.3.7",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rcl-yaml-param-parser-5.3.7-py311h5e4dfb3_4",
+            "filename": "ros-humble-rcl-yaml-param-parser-5.3.7-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-typesupport-cpp",
+            "version": "2.0.1",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-typesupport-cpp-2.0.1-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-typesupport-cpp-2.0.1-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "pygments",
+            "version": "2.13.0",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "pygments-2.13.0-pyhd8ed1ab_0",
+            "filename": "pygments-2.13.0-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "pure_eval",
+            "version": "0.2.2",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "pure_eval-0.2.2-pyhd8ed1ab_0",
+            "filename": "pure_eval-0.2.2-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-std-msgs",
+            "version": "4.2.3",
+            "build": "py311h5e4dfb3_5",
+            "filename_stem": "ros-humble-std-msgs-4.2.3-py311h5e4dfb3_5",
+            "filename": "ros-humble-std-msgs-4.2.3-py311h5e4dfb3_5.tar.gz"
+        },
+        {
+            "name": "python-dateutil",
+            "version": "2.8.2",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "python-dateutil-2.8.2-pyhd8ed1ab_0",
+            "filename": "python-dateutil-2.8.2-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "emscripten-abi",
+            "version": "3.1.45",
+            "build": "h7b187fe_15",
+            "filename_stem": "emscripten-abi-3.1.45-h7b187fe_15",
+            "filename": "emscripten-abi-3.1.45-h7b187fe_15.tar.gz"
+        },
+        {
+            "name": "ipycanvas",
+            "version": "0.13.1",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "ipycanvas-0.13.1-pyhd8ed1ab_0",
+            "filename": "ipycanvas-0.13.1-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ipywidgets",
+            "version": "8.1.2",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "ipywidgets-8.1.2-pyhd8ed1ab_0",
+            "filename": "ipywidgets-8.1.2-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "traitlets",
+            "version": "5.5.0",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "traitlets-5.5.0-pyhd8ed1ab_0",
+            "filename": "traitlets-5.5.0-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "matplotlib-base",
+            "version": "3.8.3",
+            "build": "h165a908_0",
+            "filename_stem": "matplotlib-base-3.8.3-h165a908_0",
+            "filename": "matplotlib-base-3.8.3-h165a908_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-python",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-python-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-python-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rmw-wasm-cpp",
+            "version": "1.0.0",
+            "build": "py311h5e4dfb3_25",
+            "filename_stem": "ros-humble-rmw-wasm-cpp-1.0.0-py311h5e4dfb3_25",
+            "filename": "ros-humble-rmw-wasm-cpp-1.0.0-py311h5e4dfb3_25.tar.gz"
+        },
+        {
+            "name": "ros-humble-tracetools",
+            "version": "4.1.1",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-tracetools-4.1.1-py311h5e4dfb3_4",
+            "filename": "ros-humble-tracetools-4.1.1-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "six",
+            "version": "1.16.0",
+            "build": "pyh6c4a22f_0",
+            "filename_stem": "six-1.16.0-pyh6c4a22f_0",
+            "filename": "six-1.16.0-pyh6c4a22f_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-typesupport-introspection-cpp",
+            "version": "3.1.5",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-typesupport-introspection-cpp-3.1.5-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-typesupport-introspection-cpp-3.1.5-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-wasm-cpp",
+            "version": "1.0.0",
+            "build": "py311h5e4dfb3_25",
+            "filename_stem": "ros-humble-wasm-cpp-1.0.0-py311h5e4dfb3_25",
+            "filename": "ros-humble-wasm-cpp-1.0.0-py311h5e4dfb3_25.tar.gz"
+        },
+        {
+            "name": "yaml-cpp",
+            "version": "0.7.0",
+            "build": "h884906a_0",
+            "filename_stem": "yaml-cpp-0.7.0-h884906a_0",
+            "filename": "yaml-cpp-0.7.0-h884906a_0.tar.gz"
+        },
+        {
+            "name": "comm",
+            "version": "0.2.2",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "comm-0.2.2-pyhd8ed1ab_0",
+            "filename": "comm-0.2.2-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "python",
+            "version": "3.11.3",
+            "build": "h_hash_24_cpython",
+            "filename_stem": "python-3.11.3-h_hash_24_cpython",
+            "filename": "python-3.11.3-h_hash_24_cpython.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-target-dependencies",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-target-dependencies-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-target-dependencies-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-index-cpp",
+            "version": "1.4.0",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-index-cpp-1.4.0-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-index-cpp-1.4.0-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rmw-implementation",
+            "version": "2.8.2",
+            "build": "py311hde20b13_4",
+            "filename_stem": "ros-humble-rmw-implementation-2.8.2-py311hde20b13_4",
+            "filename": "ros-humble-rmw-implementation-2.8.2-py311hde20b13_4.tar.gz"
+        },
+        {
+            "name": "setuptools",
+            "version": "65.5.1",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "setuptools-65.5.1-pyhd8ed1ab_0",
+            "filename": "setuptools-65.5.1-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "backports",
+            "version": "1.0",
+            "build": "py_2",
+            "filename_stem": "backports-1.0-py_2",
+            "filename": "backports-1.0-py_2.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-package",
+            "version": "0.14.0",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-package-0.14.0-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-package-0.14.0-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros2-distro-mutex",
+            "version": "0.5.0",
+            "build": "humble",
+            "filename_stem": "ros2-distro-mutex-0.5.0-humble",
+            "filename": "ros2-distro-mutex-0.5.0-humble.tar.gz"
+        },
+        {
+            "name": "ros-humble-rcl-logging-interface",
+            "version": "2.3.1",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rcl-logging-interface-2.3.1-py311h5e4dfb3_4",
+            "filename": "ros-humble-rcl-logging-interface-2.3.1-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "importlib_metadata",
+            "version": "3.3.0",
+            "build": "hd8ed1ab_3",
+            "filename_stem": "importlib_metadata-3.3.0-hd8ed1ab_3",
+            "filename": "importlib_metadata-3.3.0-hd8ed1ab_3.tar.gz"
+        },
+        {
+            "name": "matplotlib",
+            "version": "3.8.3",
+            "build": "py311h165a908_0",
+            "filename_stem": "matplotlib-3.8.3-py311h165a908_0",
+            "filename": "matplotlib-3.8.3-py311h165a908_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-pytest",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-pytest-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-pytest-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-lifecycle-msgs",
+            "version": "1.2.1",
+            "build": "py311h5e4dfb3_5",
+            "filename_stem": "ros-humble-lifecycle-msgs-1.2.1-py311h5e4dfb3_5",
+            "filename": "ros-humble-lifecycle-msgs-1.2.1-py311h5e4dfb3_5.tar.gz"
+        },
+        {
+            "name": "numpy",
+            "version": "1.25.2",
+            "build": "py311he9a3d86_2",
+            "filename_stem": "numpy-1.25.2-py311he9a3d86_2",
+            "filename": "numpy-1.25.2-py311he9a3d86_2.tar.gz"
+        },
+        {
+            "name": "iniconfig",
+            "version": "1.1.1",
+            "build": "pyh9f0ad1d_0",
+            "filename_stem": "iniconfig-1.1.1-pyh9f0ad1d_0",
+            "filename": "iniconfig-1.1.1-pyh9f0ad1d_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-typesupport-fastrtps-c",
+            "version": "2.2.2",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-typesupport-fastrtps-c-2.2.2-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-typesupport-fastrtps-c-2.2.2-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "pyparsing",
+            "version": "3.0.9",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "pyparsing-3.0.9-pyhd8ed1ab_0",
+            "filename": "pyparsing-3.0.9-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "executing",
+            "version": "1.2.0",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "executing-1.2.0-pyhd8ed1ab_0",
+            "filename": "executing-1.2.0-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "asttokens",
+            "version": "2.1.0",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "asttokens-2.1.0-pyhd8ed1ab_0",
+            "filename": "asttokens-2.1.0-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "kiwisolver",
+            "version": "1.3.2",
+            "build": "haac96bd_6",
+            "filename_stem": "kiwisolver-1.3.2-haac96bd_6",
+            "filename": "kiwisolver-1.3.2-haac96bd_6.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-test",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-test-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-test-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "zipp",
+            "version": "3.10.0",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "zipp-3.10.0-pyhd8ed1ab_0",
+            "filename": "zipp-3.10.0-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-rmw",
+            "version": "6.1.1",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rmw-6.1.1-py311h5e4dfb3_4",
+            "filename": "ros-humble-rmw-6.1.1-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "backports.functools_lru_cache",
+            "version": "1.6.4",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "backports.functools_lru_cache-1.6.4-pyhd8ed1ab_0",
+            "filename": "backports.functools_lru_cache-1.6.4-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-rcl-interfaces",
+            "version": "1.2.1",
+            "build": "py311h5e4dfb3_5",
+            "filename_stem": "ros-humble-rcl-interfaces-1.2.1-py311h5e4dfb3_5",
+            "filename": "ros-humble-rcl-interfaces-1.2.1-py311h5e4dfb3_5.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-export-interfaces",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-export-interfaces-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-export-interfaces-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-export-dependencies",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-export-dependencies-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-export-dependencies-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "importlib-metadata",
+            "version": "3.3.0",
+            "build": "pyhd8ed1ab_1",
+            "filename_stem": "importlib-metadata-3.3.0-pyhd8ed1ab_1",
+            "filename": "importlib-metadata-3.3.0-pyhd8ed1ab_1.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-generator-cpp",
+            "version": "3.1.5",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-generator-cpp-3.1.5-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-generator-cpp-3.1.5-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "pexpect",
+            "version": "4.8.0",
+            "build": "pyh1a96a4e_2",
+            "filename_stem": "pexpect-4.8.0-pyh1a96a4e_2",
+            "filename": "pexpect-4.8.0-pyh1a96a4e_2.tar.gz"
+        },
+        {
+            "name": "ros-humble-libyaml-vendor",
+            "version": "1.2.2",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-libyaml-vendor-1.2.2-py311h5e4dfb3_4",
+            "filename": "ros-humble-libyaml-vendor-1.2.2-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-runtime-cpp",
+            "version": "3.1.5",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-runtime-cpp-3.1.5-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-runtime-cpp-3.1.5-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-gtest-vendor",
+            "version": "1.10.9004",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-gtest-vendor-1.10.9004-py311h5e4dfb3_4",
+            "filename": "ros-humble-gtest-vendor-1.10.9004-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-spdlog-vendor",
+            "version": "1.3.1",
+            "build": "py311h6009238_4",
+            "filename_stem": "ros-humble-spdlog-vendor-1.3.1-py311h6009238_4",
+            "filename": "ros-humble-spdlog-vendor-1.3.1-py311h6009238_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-parser",
+            "version": "3.1.5",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-parser-3.1.5-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-parser-3.1.5-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "xeus-lite",
+            "version": "1.0.2",
+            "build": "h5c9267c_1",
+            "filename_stem": "xeus-lite-1.0.2-h5c9267c_1",
+            "filename": "xeus-lite-1.0.2-h5c9267c_1.tar.gz"
+        },
+        {
+            "name": "ros-humble-python-cmake-module",
+            "version": "0.10.0",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-python-cmake-module-0.10.0-py311h5e4dfb3_4",
+            "filename": "ros-humble-python-cmake-module-0.10.0-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "pluggy",
+            "version": "1.0.0",
+            "build": "pyhd8ed1ab_5",
+            "filename_stem": "pluggy-1.0.0-pyhd8ed1ab_5",
+            "filename": "pluggy-1.0.0-pyhd8ed1ab_5.tar.gz"
+        },
+        {
+            "name": "ros-humble-domain-coordinator",
+            "version": "0.10.0",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-domain-coordinator-0.10.0-py311h5e4dfb3_4",
+            "filename": "ros-humble-domain-coordinator-0.10.0-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-typesupport-introspection-c",
+            "version": "3.1.5",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-typesupport-introspection-c-3.1.5-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-typesupport-introspection-c-3.1.5-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-osrf-testing-tools-cpp",
+            "version": "1.5.2",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-osrf-testing-tools-cpp-1.5.2-py311h5e4dfb3_4",
+            "filename": "ros-humble-osrf-testing-tools-cpp-1.5.2-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "widgetsnbextension",
+            "version": "4.0.10",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "widgetsnbextension-4.0.10-pyhd8ed1ab_0",
+            "filename": "widgetsnbextension-4.0.10-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "prompt-toolkit",
+            "version": "3.0.32",
+            "build": "pyha770c72_0",
+            "filename_stem": "prompt-toolkit-3.0.32-pyha770c72_0",
+            "filename": "prompt-toolkit-3.0.32-pyha770c72_0.tar.gz"
+        },
+        {
+            "name": "xeus-python",
+            "version": "0.15.10",
+            "build": "h1be4ea2_18",
+            "filename_stem": "xeus-python-0.15.10-h1be4ea2_18",
+            "filename": "xeus-python-0.15.10-h1be4ea2_18.tar.gz"
+        },
+        {
+            "name": "ros-humble-action-msgs",
+            "version": "1.2.1",
+            "build": "py311h5e4dfb3_5",
+            "filename_stem": "ros-humble-action-msgs-1.2.1-py311h5e4dfb3_5",
+            "filename": "ros-humble-action-msgs-1.2.1-py311h5e4dfb3_5.tar.gz"
+        },
+        {
+            "name": "attrs",
+            "version": "22.1.0",
+            "build": "pyh71513ae_1",
+            "filename_stem": "attrs-22.1.0-pyh71513ae_1",
+            "filename": "attrs-22.1.0-pyh71513ae_1.tar.gz"
+        },
+        {
+            "name": "fmt",
+            "version": "8.1.1",
+            "build": "h71323bb_0",
+            "filename_stem": "fmt-8.1.1-h71323bb_0",
+            "filename": "fmt-8.1.1-h71323bb_0.tar.gz"
+        },
+        {
+            "name": "lark-parser",
+            "version": "0.12.0",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "lark-parser-0.12.0-pyhd8ed1ab_0",
+            "filename": "lark-parser-0.12.0-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "wcwidth",
+            "version": "0.2.5",
+            "build": "pyh9f0ad1d_2",
+            "filename_stem": "wcwidth-0.2.5-pyh9f0ad1d_2",
+            "filename": "wcwidth-0.2.5-pyh9f0ad1d_2.tar.gz"
+        },
+        {
+            "name": "ros-humble-unique-identifier-msgs",
+            "version": "2.2.1",
+            "build": "py311h5e4dfb3_5",
+            "filename_stem": "ros-humble-unique-identifier-msgs-2.2.1-py311h5e4dfb3_5",
+            "filename": "ros-humble-unique-identifier-msgs-2.2.1-py311h5e4dfb3_5.tar.gz"
+        },
+        {
+            "name": "docutils",
+            "version": "0.18.1",
+            "build": "py311had7285e_0",
+            "filename_stem": "docutils-0.18.1-py311had7285e_0",
+            "filename": "docutils-0.18.1-py311had7285e_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-rclpy",
+            "version": "3.3.12",
+            "build": "py311h5e4dfb3_5",
+            "filename_stem": "ros-humble-rclpy-3.3.12-py311h5e4dfb3_5",
+            "filename": "ros-humble-rclpy-3.3.12-py311h5e4dfb3_5.tar.gz"
+        },
+        {
+            "name": "ros-humble-fastcdr",
+            "version": "1.0.24",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-fastcdr-1.0.24-py311h5e4dfb3_4",
+            "filename": "ros-humble-fastcdr-1.0.24-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "xeus-python-shell",
+            "version": "0.6.1",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "xeus-python-shell-0.6.1-pyhd8ed1ab_0",
+            "filename": "xeus-python-shell-0.6.1-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-ros",
+            "version": "0.10.0",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-ros-0.10.0-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-ros-0.10.0-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "more-itertools",
+            "version": "9.0.0",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "more-itertools-9.0.0-pyhd8ed1ab_0",
+            "filename": "more-itertools-9.0.0-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "gtest",
+            "version": "1.14.0",
+            "build": "h71323bb_0",
+            "filename_stem": "gtest-1.14.0-h71323bb_0",
+            "filename": "gtest-1.14.0-h71323bb_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-gtest",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-gtest-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-gtest-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "stack_data",
+            "version": "0.6.1",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "stack_data-0.6.1-pyhd8ed1ab_0",
+            "filename": "stack_data-0.6.1-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-runtime-c",
+            "version": "3.1.5",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-runtime-c-3.1.5-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-runtime-c-3.1.5-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-cmake",
+            "version": "3.1.5",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-cmake-3.1.5-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-cmake-3.1.5-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "argcomplete",
+            "version": "2.0.0",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "argcomplete-2.0.0-pyhd8ed1ab_0",
+            "filename": "argcomplete-2.0.0-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "backcall",
+            "version": "0.2.0",
+            "build": "pyh9f0ad1d_0",
+            "filename_stem": "backcall-0.2.0-pyh9f0ad1d_0",
+            "filename": "backcall-0.2.0-pyh9f0ad1d_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-gmock",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-gmock-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-gmock-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "importlib_resources",
+            "version": "5.10.0",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "importlib_resources-5.10.0-pyhd8ed1ab_0",
+            "filename": "importlib_resources-5.10.0-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "matplotlib-inline",
+            "version": "0.1.6",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "matplotlib-inline-0.1.6-pyhd8ed1ab_0",
+            "filename": "matplotlib-inline-0.1.6-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-export-targets",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-export-targets-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-export-targets-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "requests-wasm-polyfill",
+            "version": "0.3.0",
+            "build": "had7285e_0",
+            "filename_stem": "requests-wasm-polyfill-0.3.0-had7285e_0",
+            "filename": "requests-wasm-polyfill-0.3.0-had7285e_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-version",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-version-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-version-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-export-include-directories",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-export-include-directories-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-export-include-directories-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-export-definitions",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-export-definitions-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-export-definitions-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "gmock",
+            "version": "1.14.0",
+            "build": "h7223423_0",
+            "filename_stem": "gmock-1.14.0-h7223423_0",
+            "filename": "gmock-1.14.0-h7223423_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-include-directories",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-include-directories-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-include-directories-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "wheel",
+            "version": "0.38.4",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "wheel-0.38.4-pyhd8ed1ab_0",
+            "filename": "wheel-0.38.4-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "catkin_pkg",
+            "version": "0.5.2",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "catkin_pkg-0.5.2-pyhd8ed1ab_0",
+            "filename": "catkin_pkg-0.5.2-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-export-link-flags",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-export-link-flags-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-export-link-flags-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-fastrtps-cmake-module",
+            "version": "2.2.2",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-fastrtps-cmake-module-2.2.2-py311h5e4dfb3_4",
+            "filename": "ros-humble-fastrtps-cmake-module-2.2.2-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rcl-action",
+            "version": "5.3.7",
+            "build": "py311hde20b13_5",
+            "filename_stem": "ros-humble-rcl-action-5.3.7-py311hde20b13_5",
+            "filename": "ros-humble-rcl-action-5.3.7-py311hde20b13_5.tar.gz"
+        },
+        {
+            "name": "ros-humble-rcl-logging-spdlog",
+            "version": "2.3.1",
+            "build": "py311h6009238_4",
+            "filename_stem": "ros-humble-rcl-logging-spdlog-2.3.1-py311h6009238_4",
+            "filename": "ros-humble-rcl-logging-spdlog-2.3.1-py311h6009238_4.tar.gz"
+        },
+        {
+            "name": "contourpy",
+            "version": "1.0.7",
+            "build": "h8724d1c_0",
+            "filename_stem": "contourpy-1.0.7-h8724d1c_0",
+            "filename": "contourpy-1.0.7-h8724d1c_0.tar.gz"
+        },
+        {
+            "name": "empy",
+            "version": "3.3.4",
+            "build": "pyh9f0ad1d_1",
+            "filename_stem": "empy-3.3.4-pyh9f0ad1d_1",
+            "filename": "empy-3.3.4-pyh9f0ad1d_1.tar.gz"
+        },
+        {
+            "name": "ros-humble-rmw-implementation-cmake",
+            "version": "6.1.1",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rmw-implementation-cmake-6.1.1-py311h5e4dfb3_4",
+            "filename": "ros-humble-rmw-implementation-cmake-6.1.1-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-ros-workspace",
+            "version": "1.0.2",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ros-workspace-1.0.2-py311h5e4dfb3_4",
+            "filename": "ros-humble-ros-workspace-1.0.2-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "pickleshare",
+            "version": "0.7.5",
+            "build": "py_1003",
+            "filename_stem": "pickleshare-0.7.5-py_1003",
+            "filename": "pickleshare-0.7.5-py_1003.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-typesupport-interface",
+            "version": "3.1.5",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-typesupport-interface-3.1.5-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-typesupport-interface-3.1.5-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "pip",
+            "version": "22.3.1",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "pip-22.3.1-pyhd8ed1ab_0",
+            "filename": "pip-22.3.1-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-rcutils",
+            "version": "5.1.5",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rcutils-5.1.5-py311h5e4dfb3_4",
+            "filename": "ros-humble-rcutils-5.1.5-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rcl-lifecycle",
+            "version": "5.3.7",
+            "build": "py311h5e4dfb3_5",
+            "filename_stem": "ros-humble-rcl-lifecycle-5.3.7-py311h5e4dfb3_5",
+            "filename": "ros-humble-rcl-lifecycle-5.3.7-py311h5e4dfb3_5.tar.gz"
+        },
+        {
+            "name": "jupyterlab_widgets",
+            "version": "3.0.10",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "jupyterlab_widgets-3.0.10-pyhd8ed1ab_0",
+            "filename": "jupyterlab_widgets-3.0.10-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-libraries",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-libraries-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-libraries-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-index-python",
+            "version": "1.4.0",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-index-python-1.4.0-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-index-python-1.4.0-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-default-runtime",
+            "version": "1.2.0",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-default-runtime-1.2.0-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-default-runtime-1.2.0-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "jedi",
+            "version": "0.18.1",
+            "build": "pyhd8ed1ab_2",
+            "filename_stem": "jedi-0.18.1-pyhd8ed1ab_2",
+            "filename": "jedi-0.18.1-pyhd8ed1ab_2.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-generator-py",
+            "version": "0.14.4",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-generator-py-0.14.4-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-generator-py-0.14.4-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosidl-typesupport-fastrtps-cpp",
+            "version": "2.2.2",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rosidl-typesupport-fastrtps-cpp-2.2.2-py311h5e4dfb3_4",
+            "filename": "ros-humble-rosidl-typesupport-fastrtps-cpp-2.2.2-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "atomicwrites",
+            "version": "1.4.1",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "atomicwrites-1.4.1-pyhd8ed1ab_0",
+            "filename": "atomicwrites-1.4.1-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-rosgraph-msgs",
+            "version": "1.2.1",
+            "build": "py311h5e4dfb3_5",
+            "filename_stem": "ros-humble-rosgraph-msgs-1.2.1-py311h5e4dfb3_5",
+            "filename": "ros-humble-rosgraph-msgs-1.2.1-py311h5e4dfb3_5.tar.gz"
+        },
+        {
+            "name": "dynmsg",
+            "version": "1.0",
+            "build": "py311h5e4dfb3_2",
+            "filename_stem": "dynmsg-1.0-py311h5e4dfb3_2",
+            "filename": "dynmsg-1.0-py311h5e4dfb3_2.tar.gz"
+        },
+        {
+            "name": "pillow",
+            "version": "10.2.0",
+            "build": "hf51ec75_0",
+            "filename_stem": "pillow-10.2.0-hf51ec75_0",
+            "filename": "pillow-10.2.0-hf51ec75_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-ament-cmake-core",
+            "version": "1.3.8",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-ament-cmake-core-1.3.8-py311h5e4dfb3_4",
+            "filename": "ros-humble-ament-cmake-core-1.3.8-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rpyutils",
+            "version": "0.2.1",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rpyutils-0.2.1-py311h5e4dfb3_4",
+            "filename": "ros-humble-rpyutils-0.2.1-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "ros-humble-rcl",
+            "version": "5.3.7",
+            "build": "py311hde20b13_5",
+            "filename_stem": "ros-humble-rcl-5.3.7-py311hde20b13_5",
+            "filename": "ros-humble-rcl-5.3.7-py311hde20b13_5.tar.gz"
+        },
+        {
+            "name": "cycler",
+            "version": "0.11.0",
+            "build": "pyhd8ed1ab_0",
+            "filename_stem": "cycler-0.11.0-pyhd8ed1ab_0",
+            "filename": "cycler-0.11.0-pyhd8ed1ab_0.tar.gz"
+        },
+        {
+            "name": "yaml",
+            "version": "0.2.5",
+            "build": "h884906a_0",
+            "filename_stem": "yaml-0.2.5-h884906a_0",
+            "filename": "yaml-0.2.5-h884906a_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-rcpputils",
+            "version": "2.4.2",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-rcpputils-2.4.2-py311h5e4dfb3_4",
+            "filename": "ros-humble-rcpputils-2.4.2-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "pytest",
+            "version": "8.0.0",
+            "build": "had7285e_0",
+            "filename_stem": "pytest-8.0.0-had7285e_0",
+            "filename": "pytest-8.0.0-had7285e_0.tar.gz"
+        },
+        {
+            "name": "py",
+            "version": "1.11.0",
+            "build": "pyh6c4a22f_0",
+            "filename_stem": "py-1.11.0-pyh6c4a22f_0",
+            "filename": "py-1.11.0-pyh6c4a22f_0.tar.gz"
+        },
+        {
+            "name": "ros-humble-builtin-interfaces",
+            "version": "1.2.1",
+            "build": "py311h5e4dfb3_4",
+            "filename_stem": "ros-humble-builtin-interfaces-1.2.1-py311h5e4dfb3_4",
+            "filename": "ros-humble-builtin-interfaces-1.2.1-py311h5e4dfb3_4.tar.gz"
+        },
+        {
+            "name": "typing_extensions",
+            "version": "4.4.0",
+            "build": "pyha770c72_0",
+            "filename_stem": "typing_extensions-4.4.0-pyha770c72_0",
+            "filename": "typing_extensions-4.4.0-pyha770c72_0.tar.gz"
+        }
+    ]
+}
