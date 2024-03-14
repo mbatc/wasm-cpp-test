@@ -1,4 +1,4 @@
 
-pushd $PROJECT_DIR
+push_cd $PROJECT_DIR
 git subtree push --prefix dist origin gh-pages
-popd
+pop_cd
