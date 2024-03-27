@@ -43,6 +43,7 @@ requirements:
     - python
     - ros-humble-ament-cmake
     - ros-humble-rcutils
+    - ros-humble-yaml-cpp-vendor
     - ros2-distro-mutex 0.5 humble
   run:
     - sel(target_platform != 'emscripten-wasm32'): cmake

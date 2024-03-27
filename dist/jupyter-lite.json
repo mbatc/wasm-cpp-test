@@ -9,22 +9,10 @@
     "federated_extensions": [
       {
         "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.9f387e5e108e458f62c3.js",
-        "name": "@jupyter-widgets/jupyterlab-manager"
-      },
-      {
-        "extension": "./extension",
         "liteExtension": true,
         "load": "static/remoteEntry.6b46a36ecbe39a20325f.js",
         "name": "@jupyterlite/xeus-python-kernel",
         "style": "./style"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.9693baf6fc7fc4c880d2.js",
-        "name": "ipycanvas"
       }
     ],
     "fileTypes": {
