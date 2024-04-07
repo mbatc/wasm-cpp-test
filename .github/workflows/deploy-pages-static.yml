@@ -37,7 +37,7 @@ jobs:
           curl https://raw.githubusercontent.com/mbatc/bash-builder/main/bash-builder>bash-builder | chmod u+x bash-builder
       - name: Configure Project
         run: |
-          mkdir .bash-builder/conf
+          mkdir -p .bash-builder/conf
 
           echo -n "emscripten-forge" > .bash-builder/conf/emforge-env-name
           echo -n "emrobostack-wasm" > .bash-builder/conf/emrobostack-env-name
