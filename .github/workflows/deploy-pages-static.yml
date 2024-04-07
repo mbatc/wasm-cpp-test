@@ -32,9 +32,9 @@ jobs:
           environment-file: envs/ci-env.yaml
           environment-name: ci-env
           micromamba-version: '1.5.6'
-      - name: Install bash-builder
+      - name: Download bash-builder
         run: |
-          mkdir -p ~/.local/bin | curl https://raw.githubusercontent.com/mbatc/bash-builder/main/bash-builder>~/.local/bin/bash-builder | chmod u+x ~/.local/bin/bash-builder
+          curl https://raw.githubusercontent.com/mbatc/bash-builder/main/bash-builder>bash-builder | chmod u+x bash-builder
       - name: Configure Project
         run: |
           mkdir .bash-builder/conf
@@ -48,11 +48,11 @@ jobs:
           echo -n "$GITHUB_WORKSPACE/deps/wasm-js" > .bash-builder/conf/wasm-js-dir
           echo -n "$GITHUB_WORKSPACE/deps/emsdk" > .bash-builder/conf/emsdk-dir
 
-          bash-builder . ./setup.sh
+          ./bash-builder . ./setup.sh
         shell: bash
       - name: Build Swift
         run: |
-          bash-builder . ./build.sh
+          ./bash-builder . ./build.sh
           touch dist/.nojekyll
         shell: bash
       - uses: actions/upload-pages-artifact@v2
