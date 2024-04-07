@@ -35,6 +35,7 @@ else
   python -m pip install git+https://github.com/DerThorsten/boa.git@python_api_v2
 
   micromamba config append channels https://repo.mamba.pm/emscripten-forge --env
+  micromamba config append channels https://repo.mamba.pm/robostack-wasm --env
 
   # For building jupyterlite site
   micromamba install -c conda-forge jupyterlite-xeus-python -y
