@@ -8,9 +8,9 @@ configure_var "emsdk-version"        "3.1.45"
 configure_path "emsdk-dir" "$HOME/emsdk"
 
 # Configure repositories
-setup_repo "emscripten-forge-dir" "https://github.com/emscripten-forge/recipes.git"      "fixes_tobi"
-setup_repo "wasm-cpp-dir"         "https://github.com/ros2wasm/rmw_wasm.git"             "main"
-setup_repo "wasm-js-dir"          "https://github.com/ros2wasm/wasm_js.git"              "main"
+setup_repo "emscripten-forge-dir" "https://github.com/mbatc/emscripten-forge-recipes.git" "main"
+setup_repo "wasm-cpp-dir"         "https://github.com/ros2wasm/rmw_wasm.git"              "main"
+setup_repo "wasm-js-dir"          "https://github.com/ros2wasm/wasm_js.git"               "main"
 
 EMFORGE_ENV_NAME="$(get_conf_var "emforge-env-name")"
 EMROBOSTACK_ENV_NAME="$(get_conf_var "emrobostack-env-name")"
