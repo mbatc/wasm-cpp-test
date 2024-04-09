@@ -4,7 +4,7 @@ This project uses the WASM ROS2 packages available on the [robostack-wasm](https
 
 The WASM ROS2 packages are built by a fork of [RoboStack](https://github.com/RoboStack/ros-humble) (see https://github.com/mbatc/ros-humble). The builds are automated using a fork of [Vinca](https://github.com/RoboStack/vinca) (see https://github.com/mbatc/ros-humble) that has been modified to add `emscripten-wasm32` as a target platform.
 
-To support Web Assembly, ROS2 is compiled with the [rmw_wasm](https://github.com/ros2wasm/rmw_wasm) middleware. This project is based on a fork of rmw_wasm (see https://github.com/mbatc/rmw_wasm) that uses [roslibjs](https://wiki.ros.org/roslibjs) to enable communication with native Nodes. Currently the rosbridge_server must be running locally for everything to work correctly. A fallback for WASM only exists, but has not been integrated at this stage.
+To support Web Assembly, ROS2 is compiled with the [rmw_wasm](https://github.com/ros2wasm/rmw_wasm) middleware. This project is based on a fork of rmw_wasm (see https://github.com/mbatc/rmw_wasm) that uses [roslibjs](https://wiki.ros.org/roslibjs) to enable communication with native Nodes. Currently the rosbridge_server must be running locally for everything to work correctly. A WASM only version of rmw_wasm, but has not been integrated at this stage (see Limitations for more info)
 
 > Building is only supported on Linux right now.
 
