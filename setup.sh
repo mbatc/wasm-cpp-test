@@ -9,7 +9,7 @@ configure_path "emsdk-dir" "$HOME/emsdk"
 
 # Configure repositories
 setup_repo "emscripten-forge-dir" "https://github.com/mbatc/emscripten-forge-recipes.git" "main"
-setup_repo "wasm-cpp-dir"         "https://github.com/ros2wasm/rmw_wasm.git"              "main"
+setup_repo "wasm-cpp-dir"         "https://github.com/mbatc/rmw_wasm.git"                 "mbatchelor/roslibjs"
 setup_repo "wasm-js-dir"          "https://github.com/ros2wasm/wasm_js.git"               "main"
 
 EMFORGE_ENV_NAME="$(get_conf_var "emforge-env-name")"
